@@ -1,0 +1,21 @@
+header img{
+    max-width: 100%;
+    object-fit: cover;
+    background-size:cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.intro-text{
+    width: 30%;
+    opacity: 0;
+    transform: translate(20px);
+    transition: 0.5s all ease-in-out;
+    
+}
+
+/*we want to add this with JS*/
+.intro-appear{
+    opacity: 1;
+    transform: translateY(0px);
+}
